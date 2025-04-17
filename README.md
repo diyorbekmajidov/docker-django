@@ -6,3 +6,6 @@
 # 2. docker compose down (this command stop container)
 # 3. If we have small change django app utilize this command --> docker compase restart django
 # 4. docker compose up --d(stop all container)
+
+
+## 5. How to makemigrations django-app --> we utilize this comand(docker compose exec django python3 manage.py makemigrations)
