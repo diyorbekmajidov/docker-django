@@ -8,4 +8,4 @@
 # 4. docker compose up --d(stop all container)
 
 
-## 5. How to makemigrations django-app --> we utilize this comand(docker compose exec django python3 manage.py makemigrations)
+## 5. How to makemigrations django-app --> we utilize this comand(docker compose exec django python3 manage.py makemigrations) same as migrate only change makemigrations to migrate 
