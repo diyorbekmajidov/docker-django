@@ -10,6 +10,8 @@ services:
       POSTGRES_DB: inventory
     ports:
       - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
   django:
     build: .
     container_name: django_app

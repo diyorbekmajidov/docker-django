@@ -34,3 +34,8 @@ python manage.py inspectdb > models.py
 ### Extract SQL code from migration
 ```
 python manage.py sqlmigrate inventory 0001
+
+```
+### intery postgres container
+docker compose exec postgres sh
+
